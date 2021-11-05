@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>DDD实战</title>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <style type="text/css">
+	body{
+		font: 400 1em/1.8 PingFang SC,Avenir,Tahoma,Arial,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-webkit-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		text-size-adjust: 100%;
+		color: #353535;
+	}
+	.main_left{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 400px;
+		bottom: 0;
+		border-right: 1px solid #e8e8e8;
+		z-index: 10;
+		background: #fff;
+		overflow-y: scroll;
+	}
+	.main_left ul{
+		padding: 10px;
+		margin: 0px;
+	}
+	.main_left li{
+		cursor: pointer;
+		padding-top: 3px;
+		list-style-type: none;
+		font-size:14px;
+	}
+	.main_left li.current{
+		color: #fa8919;
+	}
+	.main_left li:hover{
+		background: #fdfbfa;
+		color: #fa8919;
+	}
+	
+	.main_right{
+		left: 400px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+    </style>
+</head>
+<body>
+
+<!-- 左侧导航 -->
+        <div class="main_left" style="height:100%">
+            <ul>
+
+
+
+
+<li data-src="javascript:void(0)"><b>00丨开篇词 (1讲)</b></li>
+<li data-src="00丨开篇词 (1讲)/00丨开篇词丨学好了DDD，你能做什么？.html">00丨开篇词丨学好了DDD，你能做什么？</li>
+</br>
+<li data-src="javascript:void(0)"><b>01丨基础篇 (5讲)</b></li>
+<li data-src="01丨基础篇 (5讲)/01丨领域驱动设计：微服务设计为什么要选择DDD？.html">01丨领域驱动设计：微服务设计为什么要选择DDD？</li>
+<li data-src="01丨基础篇 (5讲)/02丨领域、子域、核心域、通用域和支撑域：傻傻分不清？.html">02丨领域、子域、核心域、通用域和支撑域：傻傻分不清？</li>
+<li data-src="01丨基础篇 (5讲)/03丨限界上下文：定义领域边界的利器.html">03丨限界上下文：定义领域边界的利器</li>
+<li data-src="01丨基础篇 (5讲)/04丨实体和值对象：从领域模型的基础单元看系统设计.html">04丨实体和值对象：从领域模型的基础单元看系统设计</li>
+<li data-src="01丨基础篇 (5讲)/05丨聚合和聚合根：怎样设计聚合？.html">05丨聚合和聚合根：怎样设计聚合？</li>
+</br>
+<li data-src="javascript:void(0)"><b>02丨进阶篇 (6讲)</b></li>
+<li data-src="02丨进阶篇 (6讲)/06丨领域事件：解耦微服务的关键.html">06丨领域事件：解耦微服务的关键</li>
+<li data-src="02丨进阶篇 (6讲)/07丨DDD分层架构：有效降低层与层之间的依赖(1).html">07丨DDD分层架构：有效降低层与层之间的依赖(1)</li>
+<li data-src="02丨进阶篇 (6讲)/07丨DDD分层架构：有效降低层与层之间的依赖.html">07丨DDD分层架构：有效降低层与层之间的依赖</li>
+<li data-src="02丨进阶篇 (6讲)/08丨微服务架构模型：几种常见模型的对比和分析.html">08丨微服务架构模型：几种常见模型的对比和分析</li>
+<li data-src="02丨进阶篇 (6讲)/09丨中台：数字转型后到底应该共享什么？.html">09丨中台：数字转型后到底应该共享什么？</li>
+<li data-src="02丨进阶篇 (6讲)/10丨DDD、中台和微服务：它们是如何协作的？.html">10丨DDD、中台和微服务：它们是如何协作的？</li>
+<li data-src="02丨进阶篇 (6讲)/答疑：有关3个典型问题的讲解.html">答疑：有关3个典型问题的讲解</li>
+</br>
+<li data-src="javascript:void(0)"><b>03丨实战篇 (10讲)</b></li>
+<li data-src="03丨实战篇 (10讲)/11丨DDD实践：如何用DDD重构中台业务模型？.html">11丨DDD实践：如何用DDD重构中台业务模型？</li>
+<li data-src="03丨实战篇 (10讲)/12丨领域建模：如何用事件风暴构建领域模型？.html">12丨领域建模：如何用事件风暴构建领域模型？</li>
+<li data-src="03丨实战篇 (10讲)/13丨代码模型（上）：如何使用DDD设计微服务代码模型？.html">13丨代码模型（上）：如何使用DDD设计微服务代码模型？</li>
+<li data-src="03丨实战篇 (10讲)/14丨代码模型（下）：如何保证领域模型与代码模型的一致性？.html">14丨代码模型（下）：如何保证领域模型与代码模型的一致性？</li>
+<li data-src="03丨实战篇 (10讲)/15丨边界：微服务的各种边界在架构演进中的作用？.html">15丨边界：微服务的各种边界在架构演进中的作用？</li>
+<li data-src="03丨实战篇 (10讲)/16丨视图：如何实现服务和数据在微服务各层的协作？.html">16丨视图：如何实现服务和数据在微服务各层的协作？</li>
+<li data-src="03丨实战篇 (10讲)/17丨从后端到前端：微服务后，前端如何设计？.html">17丨从后端到前端：微服务后，前端如何设计？</li>
+<li data-src="03丨实战篇 (10讲)/18丨知识点串讲：基于DDD的微服务设计实例.html">18丨知识点串讲：基于DDD的微服务设计实例</li>
+<li data-src="03丨实战篇 (10讲)/19丨总结（一）：微服务设计和拆分要坚持哪些原则？.html">19丨总结（一）：微服务设计和拆分要坚持哪些原则？</li>
+<li data-src="03丨实战篇 (10讲)/20丨总结（二）：分布式架构关键设计10问.html">20丨总结（二）：分布式架构关键设计10问</li>
+</br>
+<li data-src="javascript:void(0)"><b>04丨结束语 (1讲)</b></li>
+<li data-src="04丨结束语 (1讲)/结束语丨所谓高手，就是跨过坑和大海！.html">结束语丨所谓高手，就是跨过坑和大海！</li>
+
+
+
+
+
+
+
+
+				
+				
+            </ul>
+        </div>
+		<!-- 右侧内容 -->
+        <div class="main_right">
+            <iframe frameborder="0" scrolling="yes" style="width:100%;height:100%" src="00丨开篇词 (1讲)/00丨开篇词丨学好了DDD，你能做什么？.html" id="aa"></iframe>
+        </div>
+
+
+
+
+<script>
+$(function(){
+	$(".main_left li").on("click",function(){
+		$(this).siblings().removeClass("current");
+		$(this).addClass("current");
+		var address =$(this).attr("data-src");
+		$("iframe").attr("src",address);
+	});
+});
+
+</script>
+</body>
+</html>
